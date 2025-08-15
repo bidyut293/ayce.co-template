@@ -2619,9 +2619,20 @@ form button span.btn__text {
   vertical-align: top;
 }
 
+#service-preview-image {
+  overflow: visible;
+}
+
+@media (max-width: 1200px) {
+  #service-preview-image {
+    overflow: hidden;
+  }
+}
+
+
 .service-preview__image.explore img {
   position: relative;
-  bottom: 3.2rem;
+  bottom: 4rem;
   padding-right: 26px;
   @media screen and (max-width: 767px) {
     object-fit: contain !important;
@@ -9483,10 +9494,10 @@ form button span.btn__text {
   /* padding: 84px 0 100px; */
   padding: 0px; /* 84px */
   position: relative;
-  bottom: 8rem;
+  bottom: 4rem;
 
   @media screen and (max-width: 990px) {
-    bottom: 3rem;
+    bottom: 1rem;
   }
 }
 
