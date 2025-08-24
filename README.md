@@ -1,4 +1,4 @@
 # ayce.co_template 
 
-here is my ayce.co platform
+To run the project just you need to live server or you can run it in browser directly.
  
